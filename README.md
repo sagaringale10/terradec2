@@ -1,4 +1,3 @@
-
 provider "aws" {
   region = "us-east-1"  # Set your desired AWS region
 }
@@ -15,17 +14,3 @@ resource "aws_s3_bucket" "my_bucket" {
 }
 
 
-
-
-/*
-# terradec2
-terraform1
-resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-test-bucket"
-
-  tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-  }
-}
-*/
